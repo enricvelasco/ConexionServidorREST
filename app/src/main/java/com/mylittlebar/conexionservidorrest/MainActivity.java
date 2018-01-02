@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Gson gson = new GsonBuilder()
                         .setLenient()
-                        .create();
+                        .create(); 
 
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl("http://192.168.1.132:8080/")
